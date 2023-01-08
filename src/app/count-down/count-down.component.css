@@ -1,0 +1,43 @@
+.timer {
+  text-align: center;
+  font-family: Kelson;
+  font-size: 1em;
+  letter-spacing: -1px;
+  color: rgb(250, 0, 0);
+  background-color: black;
+}
+.timer span {
+  font-size: 2em;
+  margin: 0 3px 0 15px;
+}
+.date{
+    text-align: center;
+    font-family: Kelson;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+    color: white;
+    background-color: black;
+  }
+.container{
+    min-height: 100vh;
+    background-color: black;
+}
+.local{
+    text-align: center;
+    font-family: Kelson;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+    color: white;
+    background-color: black;
+}
+.slogan{
+  text-align: center;
+  font-family: Kelson;
+  font-size: 1.4em;
+  letter-spacing: -1px;
+  color: rgb(255, 215, 0);
+  background-color: black;
+}
+.born{
+  height: 200px;
+}
