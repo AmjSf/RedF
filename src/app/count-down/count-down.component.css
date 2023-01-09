@@ -13,9 +13,9 @@
 .date{
     text-align: center;
     font-family: Kelson;
-    font-size: 1.4em;
+    font-size: 1.3em;
     letter-spacing: -1px;
-    color: white;
+    color: rgb(104, 103, 103);
     background-color: black;
   }
 .container{
@@ -25,19 +25,42 @@
 .local{
     text-align: center;
     font-family: Kelson;
-    font-size: 1.4em;
+    font-size: 1em;
     letter-spacing: -1px;
-    color: white;
+    color: rgb(59, 57, 57);
     background-color: black;
+}
+.local2{
+  text-align: center;
+  font-family: Kelson;
+  font-size: 0.9em;
+  letter-spacing: 0.3px;
+  color: rgb(59, 57, 57);
+  background-color: black;
 }
 .slogan{
   text-align: center;
   font-family: Kelson;
   font-size: 1.4em;
-  letter-spacing: -1px;
-  color: rgb(255, 215, 0);
+  letter-spacing: 1px;
   background-color: black;
 }
 .born{
   height: 200px;
+}
+.bornt{
+ color:rgb(255, 215, 0);
+}
+.toplay{
+  color:black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgb(255, 215, 0)
+}
+.box{
+  text-align: center;
+  font-family: Kelson;
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  color: white;
+  background-color: black;
 }
