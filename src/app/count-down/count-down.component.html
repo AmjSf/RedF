@@ -1,7 +1,7 @@
 
 <div class="container h-100 d-flex justify-content-center align-items-center"><div class="row align-items-center">
   <div class="col-12 timer mb-5 ">
-    <span id="days">{{('0' + daysToDday).slice(-2)}} : {{('0' + hoursToDday).slice(-2)}} : {{('0' + minutesToDday).slice(-2)}} : {{('0' + secondsToDday).slice(-2)}} </span>
+    <span id="days">{{('0' + (daysToDday || 0)).slice(-2)}} : {{('0' + (hoursToDday || 0)).slice(-2)}} : {{('0' + (minutesToDday || 0)).slice(-2)}} : {{('0' + (secondsToDday || 0)).slice(-2)}} </span>
   </div>
   <div class="col-12 box"><h2>What's that box?</h2></div>
   <div class="col-12 date">26.01.2023 | 16H</div>
